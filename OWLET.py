@@ -50,7 +50,7 @@ def main():
     
     if not args.subject_video:
     
-        owlet_gui = OWLET_GUI.OWLET_Interface(cwd)    
+        owlet_gui = eyetracker.OWLET_GUI.OWLET_Interface(cwd)
         continue_running = True
         while continue_running:  
             owlet_gui.display_GUI()
